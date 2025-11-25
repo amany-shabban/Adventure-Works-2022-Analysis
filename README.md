@@ -49,15 +49,15 @@ The DimDate table is dynamically generated using DAX CALENDAR function, covering
 <style>
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* صورتين جنب بعض */
-    gap: 15px; /* مسافة بين الصور */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; 
     padding: 10px;
 }
 
 .gallery-container img {
     width: 100%;
-    border: 3px solid #ccc; /* الإطار */
-    border-radius: 10px; /* حواف ناعمة */
+    border: 3px solid #ccc; 
+    border-radius: 10px; 
     object-fit: cover;
 }
 </style>
