@@ -46,29 +46,18 @@ This Power BI project provides comprehensive sales analysis for Adventure Works 
 All dimension tables are sourced from custom SQL views (`vw_*`) created in the AdventureWorks2022 database.
 The DimDate table is dynamically generated using DAX CALENDAR function, covering the full date range from earliest OrderDate to latest DueDate.
 
-<style>
-.gallery-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 15px; 
-    padding: 10px;
-}
-
-.gallery-container img {
-    width: 100%;
-    border: 3px solid #ccc; 
-    border-radius: 10px; 
-    object-fit: cover;
-}
-</style>
-
-<div class="gallery-container">
-    <img src="https://github.com/user-attachments/assets/abdac3ad-e877-4b31-b66f-72cfaff5eaf5" alt="D2">
-    <img src="https://github.com/user-attachments/assets/deeefa9b-d739-468c-95a9-4dc8ad75c1cd" alt="D1">
-    
-    <img src="https://github.com/user-attachments/assets/ebce4a52-c8ed-4f77-8acc-ba5e7ecd933a" alt="Statistics">
-    <img src="https://github.com/user-attachments/assets/76775a7f-6267-4660-ac82-e4aaf5c1ad33" alt="Overview">
-    
-    <img src="https://github.com/user-attachments/assets/5ffc08c4-b63f-4bec-9fec-f4b99393bd17" alt="D3">
-</div>
+<table border="1">
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/abdac3ad-e877-4b31-b66f-72cfaff5eaf5" width="450"></td>
+        <td><img src="https://github.com/user-attachments/assets/deeefa9b-d739-468c-95a9-4dc8ad75c1cd" width="450"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/ebce4a52-c8ed-4f77-8acc-ba5e7ecd933a" width="450"></td>
+        <td><img src="https://github.com/user-attachments/assets/76775a7f-6267-4660-ac82-e4aaf5c1ad33" width="450"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/5ffc08c4-b63f-4bec-9fec-f4b99393bd17" width="450"></td>
+        <td></td>
+    </tr>
+</table>
 
